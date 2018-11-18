@@ -5,8 +5,20 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>become_java_junior</groupId>
     <artifactId>java</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>module_1</module>
+    </modules>
 
-
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
